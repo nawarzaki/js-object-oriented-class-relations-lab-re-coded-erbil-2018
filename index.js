@@ -6,8 +6,9 @@ let tripId = 0
 
 class Driver {
   constructor(name) {
+      this.name = name
     this.Id = ++driverId
-    this.name = name
+  
     store.drivers.push(this)
   }
   trips(){
