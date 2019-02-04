@@ -1,9 +1,9 @@
-let store = {driver: []}
+let store = {drivers: []}
 let driverId = 0
 class Driver {
   constructor(name) {
     this.Id = ++driverId
     this.name = name
-    store.driver.push(this)
+    store.drivers.push(this)
   }
 }
