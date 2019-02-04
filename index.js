@@ -1,4 +1,4 @@
-let store = []
+let store = {driver: []}
 let driverId = 0
 class Driver {
   constructor(name) {
