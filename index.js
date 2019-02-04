@@ -4,6 +4,6 @@ class Driver {
   constructor(name) {
     this.Id = ++driverId
     this.name = name
-    store.push(this)
+    store.driver.push(this)
   }
 }
